@@ -42,8 +42,6 @@ public class Helper {
         bis.close();
     }
 
-
-
     public void takeScreenshot(WebDriver driver, String relativePath) throws IOException {
         TakesScreenshot ts=(TakesScreenshot)driver;
         FileHandler.copy(ts.getScreenshotAs(OutputType.FILE),
